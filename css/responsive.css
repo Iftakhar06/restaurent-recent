@@ -1,0 +1,162 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .welcome-text-dish h3 {
+        line-height: 40px;
+    }
+}
+
+/* Normal desktop (LG) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+    .welcome-text-dish h3 {
+        line-height: 40px;
+    }
+    .main-menu nav ul li {
+        margin: 0 10px;
+    }
+    .btn-footer {
+        right: -70px;
+        width: 57%;
+    }
+    .logo img {
+        margin-top: 0px;
+    }
+    .footer-input input {
+        width: 72%;
+    }
+    /* ul.footer-list li {
+        margin-right: 30px;
+    } */
+    .social-icon input {
+        top: 9px;
+    }
+    .offer-all {
+        margin-bottom: 30px;
+    }
+    .offer-all {
+        margin-bottom: 30px;
+    }
+    .mean-container a.meanmenu-reveal {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+    }
+    .meanmenu-reveal{
+        top: -16px;
+        right: 29px;
+    }
+    .text-box p {
+        margin-bottom: 28px;
+    }
+}
+
+/* Tablet desktop (MD) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-text-dish h3 {
+        line-height: 40px;
+    }
+    .wel-content img{
+        margin-bottom: 30px ;
+    }
+    .offer-all {
+        margin-bottom: 30px;
+    }
+    .btn-footer {
+        right: -168px;
+    }
+    .slider-nav .items img {
+        width: 200%;
+    }
+    .btn-footer {
+        width: 30%;
+    }
+    .footer-input input {
+        width: 99%;
+    }
+    .social-icon input {
+        top: -1px;
+        left: -104px;
+        width: 155%;
+    }
+
+    .off-text {
+        padding-top: 0px;
+    }
+    .mean-container a.meanmenu-reveal {
+        border: 1px solid #fff;
+        color: #fff;
+        top: 4px;
+        width: 22px;
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+    }
+    .meanmenu-reveal{
+        top: -16px;
+        right: -29px;
+    }
+    .off-text span {
+        font-size: 38px;
+    }
+    .logo img {
+        position: relative;
+        top: 8px;
+    }
+    .admin-text p {
+        font-size: 14px;
+    }
+    .text-box p {
+        margin-bottom: 28px;
+    }
+}
+
+/* small mobile (XS/SM):320px. */
+@media (max-width: 767px) {
+    .welcome-text-dish h3 {
+        line-height: 40px;
+    }
+    .wel-all {
+        margin-bottom: 30px;
+    }
+    .offer-all {
+        margin-bottom: 30px;
+    }
+    .btn-footer {
+        right: -100px;
+    }
+    .slider-nav .items img {
+        margin-top: 9px;
+    }
+    .mean-container a.meanmenu-reveal {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+    }
+    .table-cell h1{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .btn.btn-blue {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* .mean-container a.meanmenu-reveal {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .mean-container a.meanmenu-reveal span {
+        background: #fff none repeat scroll 0 0;
+    } */
+
+    /* .table-cell h1{
+        font-size: 40px;
+        line-height: 52px;
+    } */
+}
